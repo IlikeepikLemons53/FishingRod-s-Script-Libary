@@ -1,5 +1,3 @@
--- NOT mine Credits to script creator
-
 local lp = game:FindService("Players").LocalPlayer
 
 local function gplr(String)
