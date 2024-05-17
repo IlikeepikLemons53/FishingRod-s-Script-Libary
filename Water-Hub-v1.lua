@@ -18,7 +18,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Tab = Tab:AddSection({
+Tab:AddSection({
 	Name = "Universal Scripts"
 })
 
