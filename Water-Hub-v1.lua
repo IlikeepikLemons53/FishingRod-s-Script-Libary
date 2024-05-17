@@ -29,7 +29,7 @@ Tab:AddButton({
   	end    
 })
 
-local Tab = Tab:AddButton({
+Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
