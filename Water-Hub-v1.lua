@@ -7,7 +7,7 @@ local Window = OrionLib:MakeWindow({Name = ("Water Hub BETA".." : ".. identifyex
 
 OrionLib:MakeNotification({
 	Name = "Water Hub v1",
-	Content = "Welcome",
+	Content = "Welcome!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -29,7 +29,7 @@ Tab:AddButton({
   	end    
 })
 
-local Tab1 = Tab:AddButton({
+local Tab = Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -46,6 +46,8 @@ Tab:AddButton({
 Tab:AddLabel("Credits wateriscool32!")
 
 Tab:AddLabel("Version 1 BETA")
+
+--
 
 local Tab = Window:MakeTab({
 	Name = "Scripts",
@@ -79,6 +81,28 @@ Tab:AddButton({
 	Name = "Slap Battles",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua", true))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Aimbot PC",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeepikLemons53/Water-Hub-V1/main/AimbotRblx.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Krnl [PE] :D",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Knrl.lua"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Animation [PE]",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/EGEGESGGH/main/FE%20Animation%20GUI.txt'))()
   	end    
 })
 
