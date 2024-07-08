@@ -1,1 +1,1 @@
-I like to script in roblox, just a normal person doing stuff in free time
+I like to script in roblox, just a normal person doing stuff in free time, Please remember that I didn't make these scripts, I needed loadstrings for my gui ( FYI I used orionlib, there are many libarys, This is the quickest one I found!)
