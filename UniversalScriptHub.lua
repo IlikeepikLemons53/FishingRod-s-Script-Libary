@@ -32,7 +32,7 @@ MAX PLAYERS = Tab1:AddLabel("Label")
 while SetInfo() do
   FPS:SetLabel("")
   PLAYERS:SetLabel("")
-  MAXPLAYERS:SetLabel
+  MAXPLAYERS:SetLabel("")
 end
 --Toggles
 Tab:AddToggle({
